@@ -1,0 +1,85 @@
+!!! NOTE: ALL TAG NAMES MUST BE LOWER CASE !!!
+
+scaler_lit = 1.1 1.1 1.1	;lit (R G B scalers) 0.56 0.77 1.0 for OSX-ish blue
+scaler_pressed = 0.90 0.90 0.90	;pressed
+scaler_search = 1.7 1.7 1.7	;search match
+scaler_title = 1.0 1.0 1.0	;active title text
+
+color_main = 000ae3			;main panel text (RGB hex)
+color_title = 000ae3		;title
+color_titlemini = 000ae3	;mini-mode title (if omitted, color_title is used)
+color_time = 000ae3			;time display (if omitted, color_main is used)
+color_timemini = 000ae3		;mini-mode time display (if omitted, color_time/color_main is used)
+color_text = 000ae3			;list/info panel text
+color_list = 000000		;playlist panel text (if omitted, color_text is used)
+color_infolist = 000ae3		;ext.playlist text (if omitted, color_text is used)
+color_listcurrent = 000236		;current track text (optional)
+color_infolistcurrent = 000ae3	;ext.playlist current track text (if omitted, color_listcurrent is used)
+color_info = 0008b2			;info heading text
+color_infotext = 000ae3		;info text, excluding ext.playlist (if omitted, color_text is used)
+color_help = 000ae3			;help text & border
+color_helpback = 000000		;help background
+color_listtime = 000ae3		;playlist time & track count
+color_listdead = ff0000		;dead track marker
+color_listmark = 000ae3		;current track marker
+color_listhover = 000236	;mouse hover framing (if omitted, scaler_pressed is applied, off=no framing)
+color_infoback = 000000		;info window background (if omitted, background of playlist is used)
+color_seethru = 000ae3		;transparent panel/slider/scroller colour
+color_search = 0008b2		;search match text
+color_infolistselback = 000236    ;ext.playlist selected track background (if omitted, scaler_lit is used) 
+
+pos_left = 0 116			;left panel offset & margin
+pos_leftdown = 1			;left panel opens downwards?
+pos_right = 275 0			;right panel offset & margin
+pos_rightdown = 0			;right panel opens downwards?
+pos_rightoverleft = 1		;left/right panel Z-order
+pos_litleft = 0 0			;offset of on/off bitmap in left panel buttons (x y, -1 = centered)
+pos_litinfo = 0 0			;offset of on/off bitmap in info window buttons
+pos_scrollinfo = 5			;offset of scroller in info window right side bitmap (x)
+pos_listnum = 2			;vertical offset adjustment of playlist numbers (y)
+pos_infoframe = 4			;info window frame width (if omitted, width of info_left.bmp is used)
+pos_titlescroll = 0			;title scrolling (0=smooth, 1=block)
+pos_level = 1018			;level display scheme (0=mirror horizontal, 1=horizontal split, 2=vertical split, 3=mono (multi-state only))
+pos_levelmini = 1010			;level display scheme (0=mirror horizontal, 1=horizontal split, 2=vertical split, 3=mono (multi-state only))
+;pos_listoff = 15			;playlist text offset (space for markers)
+pos_automini = 0			;switch from mini to normal layout when the mouse is hovering?
+pos_info1line = 1;
+
+font_title = arial		;title font (Zado was the old font if you like)
+font_titlesize = 10			;title font size
+font_titlebold = 0			;title font is bold?
+font_titlealign = 1			;title alignment (0=centre, 1=left, 2=right)
+font_titlemini = arial		;title font
+font_titleminisize = 8			;title font size
+font_titleminibold = 0			;title font is bold?
+font_titleminialign = 2			;title alignment (0=centre, 1=left, 2=right)
+font_timemini = XMPLAYwaclassicminitime	;time display font
+font_timeminisize = 8			;time font size
+font_timeminibold = 0			;time font is bold?
+font_timeminialign = 2			;time font is bold?
+font_time = XMPLAYwaclassictime		;time display font
+font_timesize = 8			;time font size
+font_timebold = 0			;time font is bold?
+font_timeitalic = 0			;time font is italic?
+font_timealign = 2		;time alignment (0=centre, 1=left, 2=right)
+font_main = 04b03 ;main panel font (info area)
+font_mainsize = 8		;main panel font size
+font_mainbold = 0			;main panel font is bold?
+font_help = ms sans serif	;help "bubble" font
+font_helpsize = 11			;help font size
+font_helpbold = 0			;help font is bold?
+font_list = ms sans serif	;playlist font
+font_listsize = 11			;playlist font size
+font_listbold = 0			;playlist font is bold?
+font_listnum = 04b03	;playlist numbers font (inc. time/format/search text)
+font_listnumsize = 8		;playlist numbers font size
+font_listnumbold = 0		;playlist numbers font is bold?
+font_info = arial	;info window font (should be a fixed-pitch font)
+font_infosize = 11			;info window font size
+font_infobold = 0			;info window font is bold?
+font_mod = XMPlayconsola		;time display font
+font_modsize = 11		;time font size
+font_modbold = 0		;time font is bold?
+
+text_author = atomas@detonation.org | Ported by RoozerXC | 1.0
+text_url = https://github.com/RoozerXC
